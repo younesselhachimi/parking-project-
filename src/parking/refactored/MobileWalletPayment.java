@@ -12,7 +12,6 @@ public class MobileWalletPayment implements RefundablePayment {
     public String name() {
         return "MobileWallet";
     }
-
     @Override
     public void pay(double amount) {
         System.out.println("[MobileWallet@" + id + "] paid " + amount + " MAD");
